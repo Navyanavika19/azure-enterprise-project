@@ -36,6 +36,7 @@ azure-enterprise-project/
 │── docs/
 
 🎯 Project Goals
+
 Provision complete Azure infrastructure using Terraform IaC
 
 Deploy microservices on Azure Kubernetes Service (AKS)
@@ -51,6 +52,7 @@ Follow enterprise-level governance, security & cost optimization
 Provide real-world migration + modernization documentation
 
 🛠️ Tech Stack
+
 Azure (AKS, VNets, App Services, Key Vault, Log Analytics)
 
 Terraform + modules structure
@@ -66,14 +68,7 @@ Azure Policy, RBAC, NSGs, Key Vault
 Monitoring & Observability
 
 📘 Documentation
+
 All detailed steps, architectures, migration plans, and runbooks are available inside the docs/ folder.
 
-# 🤝 Contributions
 
-This is a personal learning + portfolio project.
-Feel free to fork and explore.
-
-# 👤 Author
-
-Navya Chandrika
-Cloud & DevOps Engineer
