@@ -1,30 +1,14 @@
 # azure-enterprise-project
 “End-to-end Azure Cloud &amp; DevOps enterprise project featuring Terraform IaC, AKS, Helm, CI/CD automation, cloud governance, monitoring, and migration workflows.”
-# 📘 Azure Enterprise DevOps Project
+re Enterprise Cloud Project (Terraform + AKS + CI/CD)
 
-A complete production-grade Azure cloud infrastructure built using Terraform, AKS, Helm, CI/CD, Monitoring, Governance, and Modernization workflows.
+This repository contains an end-to-end enterprise-grade cloud project built on Microsoft Azure.  
+It includes infrastructure provisioning using Terraform, application deployment using Kubernetes & Helm,  
+CI/CD automation using GitHub Actions and Azure DevOps, and full monitoring, governance, and lifecycle documentation.
 
-This repository serves as a real-world, end-to-end enterprise cloud environment, demonstrating hands-on expertise in Azure Cloud & DevOps engineering.
+## 📁 Repository Structure
 
-# 🚀 Project Highlights
-
-🌐 Terraform-based multi-environment IaC (dev/test/prod)
-
-☸️ AKS deployments with Helm, Ingress, Autoscaling
-
-🔄 CI/CD pipelines using GitHub Actions & Azure DevOps
-
-🔐 Cloud governance with Azure Policies, RBAC, Key Vault
-
-📊 Monitoring with Prometheus, Grafana & Azure Monitor
-
-📦 App modernization & migration using Docker & App Services
-
-💰 Cost optimization & performance engineering
-
-🧪 End-to-end capstone simulation of enterprise cloud
-
-# 📁 Repository Structure
+```text
 azure-enterprise-project/
 │── terraform/
 │    ├── modules/
@@ -51,51 +35,38 @@ azure-enterprise-project/
 │── governance/
 │── docs/
 
-# 🏗️ Technologies Used
+🎯 Project Goals
+Provision complete Azure infrastructure using Terraform IaC
 
-Azure: AKS, App Services, Key Vault, VNets, NSGs, Policies
+Deploy microservices on Azure Kubernetes Service (AKS)
 
-DevOps: GitHub Actions, Azure DevOps, CI/CD
+Implement Helm charts for backend & frontend
 
-Infrastructure as Code: Terraform
+Create automated pipelines using GitHub Actions + Azure DevOps
 
-Containers: Docker, Helm
+Integrate Azure Monitor, Log Analytics, Application Insights
 
-Monitoring: Prometheus, Grafana, Log Analytics
+Follow enterprise-level governance, security & cost optimization
 
-Database: Azure SQL
+Provide real-world migration + modernization documentation
 
-Networking: Ingress, Load Balancers, VNet Peering
+🛠️ Tech Stack
+Azure (AKS, VNets, App Services, Key Vault, Log Analytics)
 
-# 🎯 Project Goals
+Terraform + modules structure
 
-Build reproducible infrastructure using Terraform
+Kubernetes + Helm
 
-Deploy microservices on AKS using Helm
+GitHub Actions / Azure DevOps Pipelines
 
-Automate CI/CD for IaC & applications
+Containerization with Docker
 
-Implement enterprise governance & security
+Azure Policy, RBAC, NSGs, Key Vault
 
-Build dashboards for real-time monitoring
+Monitoring & Observability
 
-Migrate & modernize legacy workloads
-
-# 📝 How to Use This Repository
-
-Clone the repo
-
-Navigate to each phase (terraform → kubernetes → ci-cd → monitoring)
-
-Follow instructions in each folder
-
-Deploy components step-by-step or end-to-end
-
-# 📍 Status
-
-✔ Ongoing project
-✔ Updated weekly
-✔ Designed for interview showcase, portfolio & real-world hands-on
+📘 Documentation
+All detailed steps, architectures, migration plans, and runbooks are available inside the docs/ folder.
 
 # 🤝 Contributions
 
